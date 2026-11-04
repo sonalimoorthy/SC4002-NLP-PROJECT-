@@ -1,0 +1,37 @@
+{
+  "dataset": "MASSIVE 1.0 en-US (original splits preserved)",
+  "split_counts": {
+    "train": 11514,
+    "dev": 2033,
+    "test": 2974
+  },
+  "total_examples": 16521,
+  "num_intents": 60,
+  "num_slot_types": 55,
+  "num_bio_tags": 111,
+  "vocab_size": 5294,
+  "tokenizer": "word",
+  "lowercase_for_word_ids": true,
+  "pad_id": 0,
+  "unk_id": 1,
+  "slot_ignore_index": -100,
+  "boundary_warnings": 0,
+  "max_tokens_per_utterance": {
+    "train": 35,
+    "dev": 27,
+    "test": 61
+  },
+  "oov_tokens": {
+    "train": 0,
+    "dev": 464,
+    "test": 712
+  },
+  "slots_per_split": {
+    "train": 11344,
+    "dev": 2012,
+    "test": 2815
+  },
+  "train_only_vocabulary": true,
+  "train_only_label_maps": true,
+  "notes": "No model was trained. No rows were dropped. Test records are processed, not used for fitting."
+}
